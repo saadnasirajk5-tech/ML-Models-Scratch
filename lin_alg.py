@@ -21,4 +21,15 @@ B= np.array([
 C= A+B   
 C=np.add(A,B) 
 print(C)
-#############################################################
+#############################################################  
+
+# Inverse and Transpose 
+print(np.transpose(A)) 
+A_inv = np.linalg.inv(A) 
+print(A_inv) 
+
+
+
+
+
+
